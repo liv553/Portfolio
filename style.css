@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cutive Mono', monospace;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.container .text {
+    flex: 1;
+    max-width: 30%;
+}
+
+.container .text h2 {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 1.8rem;
+    color: #444;
+}
+
+.container .text p {
+    text-align: left;
+    line-height: 1.8;
+}
+
+.container img {
+    max-width: 150px; /* Ajusta o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção */
+    border-radius: 5px;
+    margin-left: 20px; /* Espaço entre o texto e a imagem */
+}
+
