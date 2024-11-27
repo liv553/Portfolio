@@ -34,6 +34,11 @@ footer {
     font-size: 0.9em;
 }
 
+.name {
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -59,27 +64,45 @@ footer {
 }
 
 .container img {
-    max-width: 300px; /* Ajusta o tamanho máximo da imagem */
-    height: auto; /* Mantém a proporção */
+    max-width: 300px;
+    height: auto;
     border-radius: 5px;
-    margin-left: 20px; /* Espaço entre o texto e a imagem */
+    margin-left: 20px;
 }
 
 .buttons {
-    margin-top: 10px; /* Espaçamento entre a imagem e os botões */
+    margin-top: 10px;
     display: flex;
-    gap: 10px; /* Espaço entre os botões */
+    gap: 10px;
 }
 
 .button {
     display: inline-block;
     padding: 10px 20px;
-    text-decoration: none; /* Remove o sublinhado */
+    text-decoration: none;
     color: #414040;
     background-color: #fff;
     border-radius: 5px;
     font-size: 0.5cm;
     font-weight: bold;
     text-align: center;
+}
+
+.buttonName {
+    bottom: 50px;
+    transform: translateX(325%);
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #414040;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 0.5cm;
+    text-align: center;
+}
+
+a {
+    color:#ebe7e7;
+    pointer-events: auto;
 }
 
