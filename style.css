@@ -7,8 +7,8 @@
 body {
     font-family: 'Cutive Mono', monospace;
     line-height: 1.6;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #29292b;
+    color: #ebe7e7;
     padding: 20px;
 }
 
@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 20px 0;
-    background-color: #fff;
+    background-color: #29292b;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -50,7 +50,7 @@ footer {
     margin-bottom: 10px;
     text-align: left;
     font-size: 1.8rem;
-    color: #444;
+    color: #f3f1f1;
 }
 
 .container .text p {
@@ -59,9 +59,27 @@ footer {
 }
 
 .container img {
-    max-width: 150px; /* Ajusta o tamanho máximo da imagem */
+    max-width: 300px; /* Ajusta o tamanho máximo da imagem */
     height: auto; /* Mantém a proporção */
     border-radius: 5px;
     margin-left: 20px; /* Espaço entre o texto e a imagem */
+}
+
+.buttons {
+    margin-top: 10px; /* Espaçamento entre a imagem e os botões */
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none; /* Remove o sublinhado */
+    color: #414040;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 0.5cm;
+    font-weight: bold;
+    text-align: center;
 }
 
